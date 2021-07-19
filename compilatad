@@ -1,0 +1,6 @@
+#! /usr/bin/env bash
+
+gcc -c *.c
+gcc -o "$1" *.o
+rm *.o
+./"$1"
